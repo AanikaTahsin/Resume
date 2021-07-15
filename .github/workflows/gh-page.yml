@@ -23,20 +23,18 @@ jobs:
         id: findIp
         uses: fjogeleit/http-request-action@master
         with:
-          url: 'https://ip.aljami.me/ip'
+          url: 'https://ip.aljami.me/ip/'
           method: 'GET'
           username: ${{ secrets.FIND_IP_USER }}
           password: ${{ secrets.FIND_IP_PASSWORD }}
       - name: Print ip
         run: echo ${{ steps.findIp.outputs.response }}
       - name: copy file via ssh key
-        uses: mdallasanta/ssh-scp-deploy@v1.0.4
+        uses: appleboy/scp-action@master
         with:
           host: ${{ steps.findIp.outputs.response }}
-          user: ${{ secrets.DEPLOY_USERNAME }}
+          username: ${{ secrets.DEPLOY_USERNAME }}
           port: ${{ secrets.DEPLOY_PORT }}
           key: ${{ secrets.DEPLOY_KEY }}
-          local: "./public"
-          remote: ${{ secrets.DEPLOY_PATH }}
-          pre_upload: echo "This will be executed before the upload!"
-          post_upload: echo "This will be executed after the upload!"
+          source: "./public"
+          target: ${{ secrets.DEPLOY_PATH }}
