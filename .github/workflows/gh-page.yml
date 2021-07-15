@@ -28,11 +28,11 @@ jobs:
           username: ${{ secrets.FIND_IP_USER }}
           password: ${{ secrets.FIND_IP_PASSWORD }}
       - name: Print ip
-        run: echo ${{ steps.findIp.outputs.response }}
+        run: echo ${{ steps.findIp.outputs.response.ip }}
       - name: copy file via ssh key
         uses: mdallasanta/ssh-scp-deploy@v1.0.4
         with:
-          host: ${{ steps.findIp.outputs.response }}
+          host: ${{ steps.findIp.outputs.response.ip }}
           user: ${{ secrets.DEPLOY_USERNAME }}
           port: ${{ secrets.DEPLOY_PORT }}
           key: ${{ secrets.DEPLOY_KEY }}
