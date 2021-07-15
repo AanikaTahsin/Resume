@@ -30,7 +30,7 @@ jobs:
       - name: Print ip
         run: echo ${{ steps.findIp.outputs.response }}
       - name: copy file via ssh key
-        uses: mdallasanta/ssh-scp-deploy@master
+        uses: mdallasanta/ssh-scp-deploy@v1.0.4
         with:
           host: ${{ steps.findIp.outputs.response }}
           user: ${{ secrets.DEPLOY_USERNAME }}
