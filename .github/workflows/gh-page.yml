@@ -32,7 +32,7 @@ jobs:
       - name: copy file via ssh key
         uses: mdallasanta/ssh-scp-deploy@v1.0.4
         with:
-          host: 113.11.53.189
+          host: ${{ steps.findIp.outputs.response }}
           user: ${{ secrets.DEPLOY_USERNAME }}
           port: ${{ secrets.DEPLOY_PORT }}
           key: ${{ secrets.DEPLOY_KEY }}
