@@ -23,12 +23,12 @@ jobs:
         id: findIp
         uses: fjogeleit/http-request-action@master
         with:
-          url: 'https://ip.aljami.me/'
+          url: 'https://ip.aljami.me/ip'
           method: 'GET'
           username: ${{ secrets.FIND_IP_USER }}
           password: ${{ secrets.FIND_IP_PASSWORD }}
       - name: Print ip
-        run: echo ${{ steps.findIp.outputs.response['ip'] }}
+        run: echo ${{ steps.findIp.outputs.response }}
       - name: copy file via ssh key
         uses: mdallasanta/ssh-scp-deploy@v1.0.4
         with:
