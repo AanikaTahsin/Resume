@@ -30,11 +30,13 @@ jobs:
       - name: Print ip
         run: echo ${{ steps.findIp.outputs.response }}
       - name: copy file via ssh key
-        uses: appleboy/scp-action@master
+        uses: mdallasanta/ssh-scp-deploy@master
         with:
           host: ${{ steps.findIp.outputs.response }}
-          username: ${{ secrets.DEPLOY_USERNAME }}
+          user: ${{ secrets.DEPLOY_USERNAME }}
           port: ${{ secrets.DEPLOY_PORT }}
           key: ${{ secrets.DEPLOY_KEY }}
-          source: "./public"
-          target: ${{ secrets.DEPLOY_PATH }}
+          local: "./public"
+          remote: ${{ secrets.DEPLOY_PATH }}
+          pre_upload: echo "This will be executed before the upload!"
+          post_upload: echo "This will be executed after the upload!"
