@@ -23,7 +23,8 @@ jobs:
         id: findIp
         uses: fjogeleit/http-request-action@master
         with:
-          url: "https://ip.aljami.me/"
+          url: 'https://ip.aljami.me/'
+          method: 'GET'
           username: ${{ secrets.FIND_IP_USER }}
           password: ${{ secrets.FIND_IP_PASSWORD }}
       - name: Show Response
