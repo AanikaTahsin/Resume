@@ -13,15 +13,15 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
-        with:
-          root_file: main.tex
-      - run: rm -r public
-      - run: mkdir public
-      - run: mv ./main.pdf ./Araf\ Al-Jami.pdf
-      - run: cp ./Araf\ Al-Jami.pdf ./public/Araf\ Al-Jami.pdf
-      - run: cp ./index.html ./public/index.html
+      # - name: Compile LaTeX document
+      #   uses: xu-cheng/latex-action@v2
+      #   with:
+      #     root_file: main.tex
+      # - run: rm -r public
+      # - run: mkdir public
+      # - run: mv ./main.pdf ./Araf\ Al-Jami.pdf
+      # - run: cp ./Araf\ Al-Jami.pdf ./public/Araf\ Al-Jami.pdf
+      # - run: cp ./index.html ./public/index.html
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
