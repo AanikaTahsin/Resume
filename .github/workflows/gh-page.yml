@@ -13,6 +13,8 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
+      - name: Notify build start
+        run: curl --location --request POST ${{NOTIFY_WEBHOOK}} --header 'Content-Type: application/json' --data-raw '{ "content": "build start CLown1331/Resume" }'          
       # - name: Compile LaTeX document
       #   uses: xu-cheng/latex-action@v2
       #   with:
@@ -47,3 +49,9 @@ jobs:
           key: ${{ secrets.DEPLOY_KEY }}
           source: ${{ secrets.DEPLOY_SOURCE_PATH }}
           target: ${{ secrets.DEPLOY_PATH }}
+      - name: Notify build success
+        if: (${{ success() }})
+        run: curl --location --request POST ${{NOTIFY_WEBHOOK}} --header 'Content-Type: application/json' --data-raw '{ "content": "build success CLown1331/Resume" }'
+      - name: Notify build failure
+        if: (${{ failure() }})
+        run: curl --location --request POST ${{NOTIFY_WEBHOOK}} --header 'Content-Type: application/json' --data-raw '{ "content": "build success CLown1331/Resume" }'
