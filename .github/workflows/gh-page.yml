@@ -18,7 +18,7 @@ jobs:
         with:
           url: ${{ secrets.NOTIFY_WEBHOOK }}
           method: 'POST'
-          payload: '{ "content": "build started CLown1331/Resume" }'
+          data: '{ "content": "build started CLown1331/Resume" }'
       # - name: Compile LaTeX document
       #   uses: xu-cheng/latex-action@v2
       #   with:
@@ -59,11 +59,11 @@ jobs:
         with:
           url: ${{ secrets.NOTIFY_WEBHOOK }}
           method: 'POST'
-          payload: '{ "content": "build success CLown1331/Resume" }'
+          data: '{ "content": "build success CLown1331/Resume" }'
       - name: Notify build failure
         if: (${{ failure() }})
         uses: fjogeleit/http-request-action@master
         with:
           url: ${{ secrets.NOTIFY_WEBHOOK }}
           method: 'POST'
-          payload: '{ "content": "build failed CLown1331/Resume" }'
+          data: '{ "content": "build failed CLown1331/Resume" }'
