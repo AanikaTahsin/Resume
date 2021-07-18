@@ -54,14 +54,14 @@ jobs:
           source: ${{ secrets.DEPLOY_SOURCE_PATH }}
           target: ${{ secrets.DEPLOY_PATH }}
       - name: Notify build success
-        if: (${{ success() }})
+        if: ${{ success() }}
         uses: fjogeleit/http-request-action@master
         with:
           url: ${{ secrets.NOTIFY_WEBHOOK }}
           method: 'POST'
           data: '{ "content": "build success CLown1331/Resume" }'
       - name: Notify build failure
-        if: (${{ failure() }})
+        if: ${{ failure() }}
         uses: fjogeleit/http-request-action@master
         with:
           url: ${{ secrets.NOTIFY_WEBHOOK }}
