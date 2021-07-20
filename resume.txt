@@ -11,6 +11,6 @@
 • Worked on multiple projects and implemented business requirements for Selise Auditing and Certification Platform.
 
 C/C++ Python JavaScript .NET C#
-TypeScript Linux Git Angular
+TypeScript Linux Git Docker Angular
 Nodejs Express SQL NoSQL REST
-Jira Redis Mqtt Mqtt
+Jira Redis RabbitMQ MongoDB Mqtt
