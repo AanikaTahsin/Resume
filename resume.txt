@@ -12,5 +12,5 @@
 
 C/C++ Python JavaScript .NET C#
 TypeScript Linux Git Docker Angular
-Nodejs Express SQL NoSQL REST
-Jira Redis RabbitMQ MongoDB Mqtt
+Nodejs Express SQL NoSQL Nginx
+REST Redis RabbitMQ MongoDB Mqtt
