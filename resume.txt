@@ -1,8 +1,8 @@
 • Develop RESTful APIs in an event-driven microservice architecture.
 • Improved the performance of nearest provider search up to 33% by refining the algorithm and data store.
 • Worked on a service to provide Identity Access Management service for millions of users.
-• Architect a User Access Management system that consolidated user management for 6 different verticals into 1 single system.
-• Develop tools to migrate millions of users from different user stores to 1 single consolidated user store.
+• Architect a User Access Management system that consolidated user management for six different verticals into a single system.
+• Develop tools to migrate millions of users from different user stores to a single consolidated user store.
 • Implemented a service to aggregate location history data in a friendly format for analytics using RabbitMQ to aggregate the history in an asynchronous process.
 • Wrote scripts/tools to load test services ensuring the desired performance is achieved.
 • Follow Test Driven Development methodology to write robust, adaptable code
