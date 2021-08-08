@@ -21,12 +21,11 @@ const html =
         loading...
     </body>
 </html>`;
-fs.writeFileSync('./index.html', html);
 
 shell.rm('-R', ['./public']);
 shell.mkdir('public');
 shellExec('pdflatex main', 'pdf creation failed', 0, 1);
+fs.writeFileSync('./public/index.html', html);
 shell.mv('./main.pdf', './Araf\ Al-Jami.pdf');
 shell.cp('./Araf\ Al-Jami.pdf', './public/Araf\ Al-Jami.pdf');
-shell.cp('./index.html', './public/index.html');
 shell.cp('./resume.html', './public/resume.html');

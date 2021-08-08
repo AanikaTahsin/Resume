@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon . -e tex,cls,js"
+    "start": "nodemon . -e tex,cls,js,html --ignore public/"
   },
   "repository": {
     "type": "git",
