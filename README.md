@@ -1,3 +1,3 @@
 [Resume](https://resume.aljami.me/)
 
-[Details](https://resume.aljami.me/resume)
+[Details](https://resume.aljami.me/resume.html)
