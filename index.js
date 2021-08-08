@@ -29,3 +29,4 @@ shellExec('pdflatex main', 'pdf creation failed', 0, 1);
 shell.mv('./main.pdf', './Araf\ Al-Jami.pdf');
 shell.cp('./Araf\ Al-Jami.pdf', './public/Araf\ Al-Jami.pdf');
 shell.cp('./index.html', './public/index.html');
+shell.cp('./resume.html', './public/resume.html');
