@@ -12,10 +12,11 @@ const ms = new Date().getTime();
 const html = 
 `<html>
     <head>
-        <meta http-equiv="Refresh" content="0; URL=./Araf Al-Jami.pdf?=${ms}">
         <script>
-            window.location = "./Araf Al-Jami.pdf?=${ms}";
+            const uid = new Date().getTime();
+            window.location = "./Araf Al-Jami.pdf?=" + uid;
         </script>
+        <meta http-equiv="Refresh" content="0; URL=./Araf Al-Jami.pdf?=${ms}">
     </head>
     <body>
         loading...
