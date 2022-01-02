@@ -96,7 +96,7 @@
                 \href%
                     {https://www.linkedin.com/in/araf-al-jami/}%
                     {linked.com/in/araf-al-jami} \faLinkedin\\%
-            Dhaka, Bangladesh | +8801755045141%
+            Bangkok, Thailand | +66 080-645-7338%
             &%
             \href%
                 {https://github.com/CLown1331}%
