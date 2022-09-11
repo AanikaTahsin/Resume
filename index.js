@@ -48,4 +48,5 @@ const html =
     shell.mv('./resume.pdf', './Araf\ Al-Jami.pdf');
     shell.cp('./Araf\ Al-Jami.pdf', './public/Araf\ Al-Jami.pdf');
     shell.cp('./resume.html', './public/resume.html');
+    shell.cp('./resume.json', './public/resume.json');
 })();
