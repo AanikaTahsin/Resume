@@ -1,23 +1,24 @@
 {
-  "name": "resume",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon . -e tex,cls,js,html --ignore public/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CLown1331/Resume.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CLown1331/Resume/issues"
-  },
-  "homepage": "https://github.com/CLown1331/Resume#readme",
-  "dependencies": {
-    "nodemon": "^2.0.6",
-    "shelljs": "^0.8.4"
-  }
+    "name": "resume",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "serve": "resume serve --theme jsonresume-theme-straightforward",
+        "build": "node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CLown1331/Resume.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CLown1331/Resume/issues"
+    },
+    "homepage": "https://github.com/CLown1331/Resume#readme",
+    "dependencies": {
+        "jsonresume-theme-straightforward": "^0.1.3",
+        "shelljs": "^0.8.4"
+    }
 }

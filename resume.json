@@ -1,0 +1,188 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Araf Al Jami",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "arafaljami1331@gmail.com",
+    "phone": "+66 080 645 7338",
+    "url": "https://araf.aljami.me",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "10250",
+      "city": "Bangkok",
+      "countryCode": "Thailand",
+      "region": "Thailand"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "_CLown1331_",
+        "url": "https://twitter.com/_CLown1331_"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Agoda",
+      "location": "Bangkok, Thailand",
+      "description": "Travel",
+      "position": "Software Engineer",
+      "url": "https://www.agoda.com/",
+      "startDate": "2022-01-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Involved in designing and developing microservices to make Agoda's payment platform more optimized.",
+        "Followed test-driven development methiodides to allow for maximum code coverage in core services developed in .NET Core and .NET Standard.",
+        "Created new Grafana dashboards upon Hadoop data source for better monitoring and observability of the running payment services."
+      ]
+    },
+    {
+      "name": "Agoda via Accurate Consultant Ltd",
+      "location": "Bangkok, Thailand",
+      "description": "Travel",
+      "position": "Software Engineer",
+      "url": "https://www.agoda.com/",
+      "startDate": "2021-11-01",
+      "endDate": "2021-12-31",
+      "summary": "Joined Agoda remotely from Bangladesh due to covid travel restrictions",
+      "highlights": [
+        "Joined Agoda remotely from Bangladesh due to covid travel restrictions."
+      ]
+    },
+    {
+      "name": "Shohoj Limited",
+      "location": "Dhaka, Bangladesh",
+      "description": "Travel",
+      "position": "Software Engineer",
+      "url": "https://www.shohoz.com/",
+      "startDate": "2020-02-01",
+      "endDate": "2021-10-31",
+      "summary": "Joined Agoda remotely from Bangladesh due to covid travel restrictions",
+      "highlights": [        
+        "Developed RESTful APIs in an event-driven microservice architecture.",
+        "Improved the performance of nearest provider search upto 33% by refining the algorithm and data store.",
+        "Worked on a service to provide Identity Access Management service for millions of users.",
+        "Architected a User Access Management system that consolidated user management for six different verticals into a single system.",
+        "Developed tools to migrate millions of users from different user stores to a single consolidated user store.",
+        "Implemented a service to aggregate location history data in a friendly format for analytics using RabbitMQ to aggregate the history in an asynchronous process.",
+        "Wrote scripts/tools to load test services ensuring the desired performance is achieved."
+      ]
+    },
+    {
+      "name": "Secure Link Services BD Ltd (SELISE)",
+      "location": "Dhaka, Bangladesh",
+      "description": "Consulting",
+      "position": "Software Engineer",
+      "url": "https://www.selise.ch/",
+      "startDate": "2020-01-31",
+      "endDate": "2018-11-01",
+      "summary": "Joined Agoda remotely from Bangladesh due to covid travel restrictions",
+      "highlights": [        
+        "Developed full stack web applications fulfilling business requirements using Angular and .NET Core Technologies.",
+        "Worked on multiple projects and implemented business requirements for Selise Auditing and Certification Platform."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Leading University, Sylhet, Bangladesh",
+      "url": "https://lus.ac.bd/",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2014-09-01",
+      "endDate": "2018-12-31",
+      "score": "3.34",
+      "courses": [
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "10th place (4th place University wise) at ICPC Bangladesh IUBAT NCPC 2018",
+      "date": "2018-08-04",
+      "awarder": "ICPC",
+      "summary": ""
+    },
+    {
+      "title": "16th place at ACM-ICPC Asia Dhaka Regional 2017",
+      "date": "2017-08-04",
+      "awarder": "ICPC",
+      "summary": ""
+    },
+    {
+      "title": "Achieved Maximum Rating of 1982 (top 4%) in Codeforces. Handle: CLown1331",
+      "date": "2018-04-04",
+      "awarder": "Codeforces",
+      "summary": ""
+    },
+    {
+      "title": "Achieved Maximum Rating of 1469 (Division1) in TopCoder. Handle: CLown1331",
+      "date": "2019-12-04",
+      "awarder": "TopCOder",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "Master",
+      "keywords": [
+        "C#",
+        "C/C++",
+        "Javascript",
+        "TypeScript",
+        "Nodejs"
+      ]
+    },
+    {
+      "name": "Tech",
+      "level": "Master",
+      "keywords": [
+        "Linux",
+        "Git",
+        "Docker",
+        "Angular",
+        "Express",
+        "SQL",
+        "NoSQL",
+        "REST",
+        "Redis",
+        "RabbitMQ",
+        "MongoDB",
+        "Mqtt"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Renegade",
+      "description": "A FPS game on Android Platform",
+      "highlights": [
+        "An FPS game on Android Platform. Developed as University Third year final project. Technologies used: Unity3d, C#, Blender.",
+        "Led the development team, executed the development process, helped with task distribution.",
+        "Developed the Gameplay system, UI System, AI System."
+      ],
+      "keywords": [
+        "Unity3d",
+        "C#"
+      ],
+      "startDate": "",
+      "endDate": "",
+      "url": "https://github.com/CLown1331/Unity-FPS",
+      "roles": [
+        "Team lead",
+        "Developer"
+      ],
+      "entity": "",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
