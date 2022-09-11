@@ -19,21 +19,22 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
-      - name: Install Dependencies
+      - name: Install Dependencies and build
         uses: actions/setup-node@v2
         env:
-          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
+          # PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
         with:
           args: install
           node-version: '14'
           cache: 'npm'
       - run: npm install
-      - name: build
-        uses: mujo-code/puppeteer-headful@v2
-        env:
-          CI: 'true'
-        with:
-          args: npm run build
+      - run: npm run build
+      # - name: build
+      #   uses: mujo-code/puppeteer-headful@v2
+      #   env:
+      #     CI: 'true'
+      #   with:
+      #     args: npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
