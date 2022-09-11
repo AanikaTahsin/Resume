@@ -19,6 +19,7 @@
     "homepage": "https://github.com/CLown1331/Resume#readme",
     "dependencies": {
         "jsonresume-theme-straightforward": "^0.1.3",
+        "resume-cli": "^3.0.7",
         "shelljs": "^0.8.4"
     }
 }
