@@ -9,7 +9,7 @@ const shellExec = (command, errorMessage, exitCode, errorCode) => {
     }
 }
 
-const ms = new Date().getTime();
+const ms = new Date().toISOString();
 const html = 
 `<html>
     <head>
