@@ -13,9 +13,9 @@ const ms = new Date().toISOString();
 const html = 
 `<html>
     <head>
-        <meta http-equiv="Refresh" content="0; URL=./Araf Al-Jami.pdf?=${ms}">
+        <meta http-equiv="Refresh" content="0; URL=./Anika Tahsin Chowdhury.pdf?=${ms}">
         <script>
-            window.location = "./Araf Al-Jami.pdf?=${ms}";
+            window.location = "./Anika Tahsin Chowdhury.pdf?=${ms}";
         </script>
     </head>
     <body>
@@ -45,8 +45,8 @@ const html =
 
     await browser.close();
     
-    shell.mv('./resume.pdf', './Araf\ Al-Jami.pdf');
-    shell.cp('./Araf\ Al-Jami.pdf', './public/Araf\ Al-Jami.pdf');
+    shell.mv('./resume.pdf', './Anika\ Tahsin\ Chowdhury.pdf');
+    shell.cp('./Anika\ Tahsin\ Chowdhury.pdf', './public/Anika\ Tahsin\ Chowdhury.pdf');
     shell.cp('./resume.html', './public/resume.html');
     shell.cp('./resume.json', './public/resume.json');
 })();
