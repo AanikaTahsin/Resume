@@ -8,12 +8,6 @@ jobs:
   deploy_resume:
     runs-on: ubuntu-latest
     steps:
-      - name: Notify build start
-        uses: fjogeleit/http-request-action@master
-        with:
-          url: ${{ secrets.NOTIFY_WEBHOOK }}
-          method: 'POST'
-          data: '{ "content": "build started ${{ github.event.repository.name }}" }'
       - name: Setup repo
         uses: actions/checkout@v2
         with:
