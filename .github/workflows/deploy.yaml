@@ -62,7 +62,6 @@ jobs:
           target: ${{ secrets.DEPLOY_PATH }}
       - name: Release
         uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
         with:
           files: Araf\ Al-Jami.pdf
       - name: Notify build success
