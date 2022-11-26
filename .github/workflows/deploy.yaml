@@ -60,6 +60,11 @@ jobs:
           key: ${{ secrets.DEPLOY_KEY }}
           source: ${{ secrets.DEPLOY_SOURCE_PATH }}
           target: ${{ secrets.DEPLOY_PATH }}
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: Araf\ Al-Jami.pdf
       - name: Notify build success
         if: ${{ success() }}
         uses: fjogeleit/http-request-action@master
@@ -81,3 +86,4 @@ jobs:
           CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
           PURGE_URLS: '["http://resume.aljami.me", "https://resume.aljami.me/resume.html"]'
+
