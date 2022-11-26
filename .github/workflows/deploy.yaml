@@ -61,9 +61,10 @@ jobs:
           source: ${{ secrets.DEPLOY_SOURCE_PATH }}
           target: ${{ secrets.DEPLOY_PATH }}
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: actions/upload-artifact@v3
         with:
-          files: Araf\ Al-Jami.pdf
+          name: Araf\ Al-Jami.pdf
+          path: Araf\ Al-Jami.pdf
       - name: Notify build success
         if: ${{ success() }}
         uses: fjogeleit/http-request-action@master
