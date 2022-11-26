@@ -63,7 +63,6 @@ jobs:
       - name: Release
         uses: actions/upload-artifact@v3
         with:
-          name: Araf\ Al-Jami.pdf
           path: Araf\ Al-Jami.pdf
       - name: Notify build success
         if: ${{ success() }}
