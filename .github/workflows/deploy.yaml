@@ -27,3 +27,9 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ${{ secrets.DEPLOY_SOURCE_PATH }}
+      - name: Release
+        uses: actions/upload-artifact@v3
+        with:
+          name: resume pdf
+          path: Anika\ Tahsin\ Chowdhury.pdf
+
