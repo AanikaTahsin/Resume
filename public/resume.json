@@ -4,9 +4,9 @@
     "name": "Anika Tahsin Chowdhury",
     "label": "Software Engineer",
     "image": "",
-    "email": "arafaljami1331@gmail.com",
-    "phone": "+353 089 432 5033",
-    "url": "https://araf.aljami.me",
+    "email": "anikachy4@gmail.com",
+    "phone": "+353 089 432 4861",
+    "url": "https://AanikaTahsin.github.io",
     "summary": "",
     "location": {
       "address": "",
@@ -17,72 +17,26 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "_CLown1331_",
-        "url": "https://twitter.com/_CLown1331_"
+        "network": "Github",
+        "username": "AanikaTahsin",
+        "url": "https://github.com/AanikaTahsin"
       }
     ]
   },
   "work": [
     {
-      "name": "Agoda",
-      "location": "Bangkok, Thailand",
-      "description": "Travel",
+      "name": "Samsung R&D Institute Bangladesh",
+      "location": "Dhaka, Bangladesh",
+      "description": "Iot",
       "position": "Software Engineer",
       "url": "https://www.agoda.com/",
-      "startDate": "2022-01-01",
-      "endDate": "2022-10-31",
+      "startDate": "2019-04-08",
+      "endDate": "2022-08-29",
       "summary": "",
       "highlights": [
         "Involved in designing and developing microservices to make Agoda's payment platform more optimized.",
         "Followed test-driven development methiodides to allow for maximum code coverage in core services developed in .NET Core and .NET Standard.",
         "Created new Grafana dashboards upon Hadoop data source for better monitoring and observability of the running payment services."
-      ]
-    },
-    {
-      "name": "Agoda via Accurate Consultant Ltd",
-      "location": "Bangkok, Thailand",
-      "description": "Travel",
-      "position": "Software Engineer",
-      "url": "https://www.agoda.com/",
-      "startDate": "2021-11-01",
-      "endDate": "2021-12-31",
-      "summary": "Joined Agoda remotely from Bangladesh due to covid travel restrictions",
-      "highlights": [
-        "Joined Agoda remotely from Bangladesh due to covid travel restrictions."
-      ]
-    },
-    {
-      "name": "Shohoj Limited",
-      "location": "Dhaka, Bangladesh",
-      "description": "Travel",
-      "position": "Software Engineer",
-      "url": "https://www.shohoz.com/",
-      "startDate": "2020-02-01",
-      "endDate": "2021-10-31",
-      "summary": "Joined Agoda remotely from Bangladesh due to covid travel restrictions",
-      "highlights": [        
-        "Developed RESTful APIs in an event-driven microservice architecture.",
-        "Improved the performance of nearest provider search upto 33% by refining the algorithm and data store.",
-        "Worked on a service to provide Identity Access Management service for millions of users.",
-        "Architected a User Access Management system that consolidated user management for six different verticals into a single system.",
-        "Developed tools to migrate millions of users from different user stores to a single consolidated user store.",
-        "Implemented a service to aggregate location history data in a friendly format for analytics using RabbitMQ to aggregate the history in an asynchronous process.",
-        "Wrote scripts/tools to load test services ensuring the desired performance is achieved."
-      ]
-    },
-    {
-      "name": "Secure Link Services BD Ltd (SELISE)",
-      "location": "Dhaka, Bangladesh",
-      "description": "Consulting",
-      "position": "Software Engineer",
-      "url": "https://www.selise.ch/",
-      "startDate": "2020-01-31",
-      "endDate": "2018-11-01",
-      "summary": "Joined Agoda remotely from Bangladesh due to covid travel restrictions",
-      "highlights": [        
-        "Developed full stack web applications fulfilling business requirements using Angular and .NET Core Technologies.",
-        "Worked on multiple projects and implemented business requirements for Selise Auditing and Certification Platform."
       ]
     }
   ],
