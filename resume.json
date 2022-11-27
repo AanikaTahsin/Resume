@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Anika Tahsin Chowdhury",
-    "label": "Software Engineer",
+    "label": "Senior Software Engineer",
     "image": "",
     "email": "anikachy4@gmail.com",
     "phone": "+353 089 432 4861",
@@ -87,22 +87,20 @@
       "name": "Languages",
       "level": "Master",
       "keywords": [
-        "C#",
+        "Swift",
         "C/C++",
-        "Javascript",
-        "TypeScript",
-        "Nodejs"
+        "Java"
       ]
     },
     {
       "name": "Tech",
       "level": "Master",
       "keywords": [
-        "Linux",
+        "Xcode",
         "Git",
-        "Docker",
+        "Android SDK",
         "Angular",
-        "Express",
+        "Agile",
         "SQL",
         "NoSQL",
         "REST",
