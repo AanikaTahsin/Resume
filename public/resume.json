@@ -47,38 +47,38 @@
     {
       "institution": "Leading University, Sylhet, Bangladesh",
       "url": "https://lus.ac.bd/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2014-09-01",
-      "endDate": "2018-12-31",
-      "score": "3.34",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2016-10-07",
+      "endDate": "2019-03-02",
+      "score": "",
       "courses": [
       ]
     }
   ],
   "awards": [
     {
-      "title": "10th place (4th place University wise) at ICPC Bangladesh IUBAT NCPC 2018",
+      "title": "328th place at Google Code Jam to I/O for Women",
       "date": "2018-08-04",
-      "awarder": "ICPC",
+      "awarder": "Google",
       "summary": ""
     },
     {
-      "title": "16th place at ACM-ICPC Asia Dhaka Regional 2017",
+      "title": "10th Place at DIU National Girls Programming Contest",
       "date": "2017-08-04",
-      "awarder": "ICPC",
+      "awarder": "Daffodil International University",
       "summary": ""
     },
     {
-      "title": "Achieved Maximum Rating of 1982 (top 4%) in Codeforces. Handle: CLown1331",
+      "title": "NSU Inter University Girls Programming Contest",
       "date": "2018-04-04",
-      "awarder": "Codeforces",
+      "awarder": "North South University",
       "summary": ""
     },
     {
-      "title": "Achieved Maximum Rating of 1469 (Division1) in TopCoder. Handle: CLown1331",
-      "date": "2019-12-04",
-      "awarder": "TopCOder",
+      "title": "LU National ICT Fest Programming Contest",
+      "date": "2018-12-04",
+      "awarder": "Leading University",
       "summary": ""
     }
   ],
