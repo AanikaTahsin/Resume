@@ -101,32 +101,24 @@
         "Android SDK",
         "Angular",
         "Agile",
-        "SQL",
-        "NoSQL",
-        "REST",
-        "Redis",
-        "RabbitMQ",
-        "MongoDB",
-        "Mqtt"
+        "SQL"
       ]
     }
   ],
   "projects": [
     {
-      "name": "Project Renegade",
-      "description": "A FPS game on Android Platform",
+      "name": "Noughts and Crosses",
+      "description": "A Single player game on Android Platform",
       "highlights": [
-        "An FPS game on Android Platform. Developed as University Third year final project. Technologies used: Unity3d, C#, Blender.",
-        "Led the development team, executed the development process, helped with task distribution.",
-        "Developed the Gameplay system, UI System, AI System."
+        "Developed Noughts and Crosses games for Android using Java an Android SDK. Implemented fixed-depth minimax AI to allow single-player games."
       ],
       "keywords": [
-        "Unity3d",
-        "C#"
+        "Java",
+        "xml"
       ],
       "startDate": "",
       "endDate": "",
-      "url": "https://github.com/CLown1331/Unity-FPS",
+      "url": "",
       "roles": [
         "Team lead",
         "Developer"
