@@ -29,14 +29,17 @@
       "location": "Dhaka, Bangladesh",
       "description": "Iot",
       "position": "Software Engineer",
-      "url": "https://www.agoda.com/",
+      "url": "https://research.samsung.com/srbd",
       "startDate": "2019-04-08",
       "endDate": "2022-08-29",
       "summary": "",
       "highlights": [
-        "Involved in designing and developing microservices to make Agoda's payment platform more optimized.",
-        "Followed test-driven development methiodides to allow for maximum code coverage in core services developed in .NET Core and .NET Standard.",
-        "Created new Grafana dashboards upon Hadoop data source for better monitoring and observability of the running payment services."
+        "Improved Samsung SmartThings Scan Nearby Feature with solving existing bugs, using this feature users can scan existing nearby devices and proceed with onboarding.",
+        "Improved and worked on SmartThings Help Card, with solving existing bugs.",
+        "Implemented UI, Utility modules independently, and wrote Unit tests of Samsung Galaxy Wearable and SmartThings project.",
+        "Developed features for Samsung Galaxy wearable, which provided users a way to connect their wearable to mobile devices.",
+        "Worked on a feature of Samsung Galaxy wearable that facilitated backup and data restoration using Samsung Account.",
+        "Follow Test Drive Development for Samsung SmartThings which increased the code coverage above 70%"
       ]
     }
   ],
