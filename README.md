@@ -1,5 +1,5 @@
 # Resume
 
-[Resume](https://resume.aljami.me/)
+[Resume](https://aanikatahsin.github.io/Resume/)
 
-[Details](https://resume.aljami.me/resume.html)
+[Details](https://aanikatahsin.github.io/Resume/resume.html)
