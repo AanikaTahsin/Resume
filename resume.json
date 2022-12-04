@@ -110,7 +110,7 @@
       "name": "Noughts and Crosses",
       "description": "A Single player game on Android Platform",
       "highlights": [
-        "Developed Noughts and Crosses games for Android using Java an Android SDK. Implemented fixed-depth minimax AI to allow single-player games."
+        "Developed Noughts and Crosses games for Android using Java and Android SDK. Implemented fixed-depth minimax AI to allow single-player games."
       ],
       "keywords": [
         "Java",
