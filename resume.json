@@ -36,6 +36,7 @@
       "highlights": [
         "Improved Samsung SmartThings Scan Nearby Feature with solving existing bugs, using this feature users can scan existing nearby devices and proceed with onboarding.",
         "Improved and worked on SmartThings Help Card, with solving existing bugs.",
+        "Refactored code of SmartThings to reduce Cyclomatic and Cognitive Complexity",
         "Implemented UI, Utility modules independently, and wrote Unit tests of Samsung Galaxy Wearable and SmartThings project.",
         "Developed features for Samsung Galaxy wearable, which provided users a way to connect their wearable to mobile devices.",
         "Worked on a feature of Samsung Galaxy wearable that facilitated backup and data restoration using Samsung Account.",
@@ -110,7 +111,7 @@
       "name": "Noughts and Crosses",
       "description": "A Single player game on Android Platform",
       "highlights": [
-        "Developed Noughts and Crosses games for Android using Java and Android SDK. Implemented fixed-depth minimax AI to allow single-player games."
+        "Developed Noughts and Crosses games for Android using Java and Android SDK. Implemented fixed-depth minimax AI to allow single-player to play against a computer opponent."
       ],
       "keywords": [
         "Java",
