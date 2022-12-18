@@ -35,11 +35,11 @@
       "summary": "",
       "highlights": [
         "Contributed to the development and improvement of the Samsung SmartThings Scan Nearby feature, resulting in increased user satisfaction and onboarding efficiency.",
+        "Designed and implemented new features for the Samsung Galaxy Wearable, including the ability to connect to mobile devices and facilitate data backup and restoration using Samsung Account.",
+        "Adhered to Test-Driven Development practices to increase code coverage for the Samsung SmartThings project to over 70%",
         "Improved and fixed bugs in the SmartThings Help Card, enhancing the user experience.",
         "Implemented refactoring techniques to decrease the Cyclomatic and Cognitive Complexity of the SmartThings codebase.",
-        "Demonstrated strong independent problem-solving skills by developing UI and Utility modules and writing Unit tests for the Samsung Galaxy Wearable and SmartThings projects.",
-        "Designed and implemented new features for the Samsung Galaxy Wearable, including the ability to connect to mobile devices and facilitate data backup and restoration using Samsung Account.",
-        "Adhered to Test-Driven Development practices to increase code coverage for the Samsung SmartThings project to over 70%"
+        "Demonstrated strong independent problem-solving skills by developing UI and Utility modules and writing Unit tests for the Samsung Galaxy Wearable and SmartThings projects."
       ]
     }
   ],
