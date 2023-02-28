@@ -102,7 +102,7 @@
   ],
   "skills": [
     {
-      "name": "Languages",
+      "name": "Programming Languages",
       "level": "Master",
       "keywords": [
         "Swift",
@@ -111,16 +111,24 @@
       ]
     },
     {
-      "name": "Tech",
+      "name": "Technology",
       "level": "Master",
       "keywords": [
+        "iOS Application Development",
         "Xcode",
         "Git",
-        "Android SDK",
-        "Angular",
         "Agile Scrum",
         "SQL"
       ]
+    },
+    {
+      "name": "Others",
+      "level": "Master",
+      "keywords": [
+        "Problem Solving",
+        "Algorithms and Data Structures"
+      ]
+
     }
   ],
   "projects": [
