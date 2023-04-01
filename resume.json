@@ -152,6 +152,27 @@
       "entity": "",
       "type": "application"
     }
+    {
+      "name": "iBooks",
+      "description": "An app of Book list and Brief detais of every single book",
+      "highlights": [
+        "iBooks is Developed using Swift in Xcode. The app is to showcase of Backend-Driven UI implementation, used mock-server to fetch book list and details, with handling exception occurences."
+      ],
+      "keywords": [
+        "Swift",
+        "xml",
+        "Xcode"
+      ],
+      "startDate": "",
+      "endDate": "",
+      "url": "",
+      "roles": [
+        "Team lead",
+        "Developer"
+      ],
+      "entity": "",
+      "type": "application"
+    }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
