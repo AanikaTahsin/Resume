@@ -7,7 +7,7 @@
     "email": "anikachy4@gmail.com",
     "phone": "+353 89 432 4861",
     "url": "https://www.linkedin.com/in/anika-tahsin-chowdhury/",
-    "summary": "As a passionate problem solver, I have honed my skills in Algorithms and Data Structures, and gained recognition through my participation in numerous national Programming Contests. In my professional career, I ventured into iOS development and worked on Samsung's iOS applications such as Samsung Galaxy Wearable and SmartThings. Although I primarily focused on front-end development, I have a keen interest in learning about the backend and its inner workings. I thrive on learning new technologies and finding creative solutions to complex challenges. I also enjoy exploring new places and meeting new people. My expertise includes Swift, Software Development Life Cycle, Git, Agile Methodologies, C++, Algorithm and Data Structure Design, as well as Design Patterns and Principles.",
+    "summary": "I have honed my skills in Algorithms and Data Structures, and gained recognition through my participation in numerous national Programming Contests. In my professional career, I ventured into iOS development and worked on Samsung's iOS applications such as Samsung Galaxy Wearable and SmartThings. Although I primarily focused on front-end development, I have a keen interest in learning about the backend and its inner workings. I thrive on learning new technologies and finding creative solutions to complex challenges. I also enjoy exploring new places and meeting new people. My expertise includes Swift, Software Development Life Cycle, Git, Agile Methodologies, C++, Algorithm and Data Structure Design, as well as Design Patterns and Principles.",
     "location": {
       "address": "",
       "postalCode": "", 
@@ -39,7 +39,7 @@
         "Developed Backend Drived UI and implemented new features of UI Screens for the Samsung Galaxy Wearable, which includes the ability to connect to mobile devices and facilitate data backup and restoration using Samsung Account.",
         "Adhered to Test-Driven Development practices to increase code stablity and making less bug free.",
         "Improved and fixed bugs in the SmartThings Help Card, enhancing the user experience.",
-        "Implemented refactoring techniques to decrease the Cyclomatic and Cognitive Complexity of the SmartThings codebase.",
+        "Successfully applied refactoring techniques to significantly reduce the Cyclomatic and Cognitive Complexity of the SmartThings codebase, resulting in improved code quality and maintainability.",
         "Demonstrated strong independent problem-solving skills by developing UI and Utility modules and writing Unit tests for the Samsung Galaxy Wearable and SmartThings projects."
       ]
     }
@@ -136,7 +136,7 @@
       "name": "Noughts and Crosses",
       "description": "A Single player game on Android Platform",
       "highlights": [
-        "Developed Noughts and Crosses games for Android using Java and Android SDK. Implemented fixed-depth minimax AI to allow single-player to play against a computer opponent"
+        "Designed and developed an Android Noughts and Crosses game using Java and Android SDK. Implemented a fixed-depth minimax artificial intelligence algorithm to enable single-player mode, allowing players to compete against a computer opponent."
       ],
       "keywords": [
         "Java",
