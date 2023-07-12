@@ -6,7 +6,7 @@
     "image": "",
     "email": "anikachy4@gmail.com",
     "phone": "+353 89 432 4861",
-    "url": "https://www.linkedin.com/in/anika-tahsin-chowdhury/",
+    "url": "linkedin: //www.linkedin.com/in/anika-tahsin-chowdhury/",
     "summary": "I have honed my skills in Algorithms and Data Structures, and gained recognition through my participation in numerous national Programming Contests. In my professional career, I ventured into iOS development and worked on Samsung's iOS applications such as Samsung Galaxy Wearable and SmartThings. Although I primarily focused on front-end development, I have a keen interest in learning about the backend and its inner workings. I thrive on learning new technologies and finding creative solutions to complex challenges. I also enjoy exploring new places and meeting new people. My expertise includes Swift, Software Development Life Cycle, Git, Agile Methodologies, C++, Algorithm and Data Structure Design, as well as Design Patterns and Principles.",
     "location": {
       "address": "",
@@ -20,7 +20,7 @@
       {
         "network": "Github",
         "username": "AanikaTahsin",
-        "url": "https://github.com/AanikaTahsin"
+        "url": "github: https://github.com/AanikaTahsin"
       }
     ]
   },
@@ -35,9 +35,9 @@
       "endDate": "2022-08-29",
       "summary": "",
       "highlights": [
-        "Contributed to the development and improvement of the Samsung SmartThings Scan Nearby feature, resulting in increased user satisfaction and onboarding efficiency.",
-        "Developed Backend Drived UI and implemented new features of UI Screens for the Samsung Galaxy Wearable, which includes the ability to connect to mobile devices and facilitate data backup and restoration using Samsung Account.",
-        "Adhered to Test-Driven Development practices to increase code stablity and making less bug free.",
+        "Contributed to the development and improvement of the Samsung SmartThings Scan Nearby feature, resulting in increased user satisfaction and onboarding efficiency.(",
+        "Developed Backend Drived UI using RESTful API integration and implemented new features of UI Screens for the Samsung Galaxy Wearable, which includes the ability to connect to mobile devices and facilitate data backup and restoration using Samsung Account.",
+        "Adhered to Test-Driven Development practices to increase code stablity and making less bug .",
         "Improved and fixed bugs in the SmartThings Help Card, enhancing the user experience.",
         "Successfully applied refactoring techniques to significantly reduce the Cyclomatic and Cognitive Complexity of the SmartThings codebase, resulting in improved code quality and maintainability.",
         "Demonstrated strong independent problem-solving skills by developing UI and Utility modules and writing Unit tests for the Samsung Galaxy Wearable and SmartThings projects."
@@ -107,7 +107,8 @@
       "keywords": [
         "Swift",
         "C/C++",
-        "Familiar with Java"
+        "Familiar with Java",
+        "HTML, CSS(Working knowledge)"
       ]
     },
     {
@@ -117,8 +118,7 @@
         "iOS Application Development",
         "Xcode",
         "Git",
-        "Agile Scrum",
-        "SQL"
+        "Agile Scrum"
       ]
     },
     {
@@ -133,14 +133,15 @@
   ],
   "projects": [
     {
-      "name": "Noughts and Crosses",
-      "description": "A Single player game on Android Platform",
+      "name": "iBooks",
+      "description": "An iOS app of Book list and Brief detais of every single book",
       "highlights": [
-        "Designed and developed an Android Noughts and Crosses game using Java and Android SDK. Implemented a fixed-depth minimax artificial intelligence algorithm to enable single-player mode, allowing players to compete against a computer opponent."
+        "iBooks is Developed using Swift in Xcode. The app is to showcase of Backend-Driven UI implementation, used mock-server to fetch book list and details, with handling exception occurences."
       ],
       "keywords": [
-        "Java",
-        "xml"
+        "Swift",
+        "xml",
+        "Xcode"
       ],
       "startDate": "",
       "endDate": "",
@@ -151,17 +152,16 @@
       ],
       "entity": "",
       "type": "application"
-    },
+    },    
     {
-      "name": "iBooks",
-      "description": "An iOS app of Book list and Brief detais of every single book",
+      "name": "Noughts and Crosses",
+      "description": "A Single player game on Android Platform",
       "highlights": [
-        "iBooks is Developed using Swift in Xcode. The app is to showcase of Backend-Driven UI implementation, used mock-server to fetch book list and details, with handling exception occurences."
+        "Designed and developed an Android Noughts and Crosses game using Java and Android SDK. Implemented a fixed-depth minimax artificial intelligence algorithm to enable single-player mode, allowing players to compete against a computer opponent."
       ],
       "keywords": [
-        "Swift",
-        "xml",
-        "Xcode"
+        "Java",
+        "xml"
       ],
       "startDate": "",
       "endDate": "",
