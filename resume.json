@@ -26,6 +26,19 @@
   },
   "work": [
     {
+      "name": "University College Dublin",
+      "location": "Dublin, Ireland",
+      "description": "Iot",
+      "position": "Research Assistant(Part-time)",
+      "url": "https://research.samsung.com/srbd",
+      "startDate": "2023-08-28",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Working on HOLOS-IE Project which will offer a critical opportunity for Ireland (and the EU) to address climate change challenges and environmental degradation, facing the world today, associated with agricultural systems, agri-food industries, and other land uses"
+      ]
+    },
+    {
       "name": "Samsung R&D Institute Bangladesh",
       "location": "Dhaka, Bangladesh",
       "description": "Iot",
