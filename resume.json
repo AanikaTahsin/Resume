@@ -149,10 +149,10 @@
       "type": "application"
     },    
     {
-      "name": "Noughts and Crosses",
+      "name": "Todo-list",
       "description": "A Single player game on Android Platform",
       "highlights": [
-        "Designed and developed an Android Noughts and Crosses game using Java and Android SDK. Implemented a fixed-depth minimax artificial intelligence algorithm to enable single-player mode, allowing players to compete against a computer opponent"
+        "Designed and developed an web Application Todo list using React JS.It allows user to create and modify their day to day task."
       ],
       "keywords": [
         "Java",
@@ -160,7 +160,7 @@
       ],
       "startDate": "",
       "endDate": "",
-      "url": "",
+      "url": "https://github.com/AanikaTahsin/Todo-list/tree/main",
       "roles": [
         "Team lead",
         "Developer"
