@@ -131,7 +131,7 @@
       "name": "iBooks",
       "description": "An iOS app of Book list and Brief detais of every single book",
       "highlights": [
-        "iBooks is Developed using Swift in Xcode. The app is to showcase of Backend-Driven UI implementation, used mock-server to fetch book list and details, with handling exception occurences"
+        "iBooks is Developed using Swift in Xcode. The app is a Backend-Driven UI implementation, used mock-server to fetch book list and details, with handling exception occurences"
       ],
       "keywords": [
         "Swift",
@@ -152,7 +152,7 @@
       "name": "Todo-list",
       "description": "A Single player game on Android Platform",
       "highlights": [
-        "Designed and developed an web Application Todo list using React JS.It allows user to create and modify their day to day task."
+        "Designed and developed an web Application Todo list using React JS.It allows user to create and modify their day to day task"
       ],
       "keywords": [
         "Java",
